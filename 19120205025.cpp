@@ -366,23 +366,23 @@ private:
 	int m_maxHacim;
 	int m_maxSicaklik;
 };
-class TIR: public Arac
-{
-public:
-	TIR(Plaka c_plaka, Sofor c_sofor, list<Yuk> c_yukListesi, AracTuru c_aracTuru,char*dorse,int maxHacim) :
-		Arac(c_plaka, c_sofor, c_yukListesi, c_aracTuru)
-	{
-
-	}
-private:
-	char* m_dorse;
-	int m_hacim;
-};
-int main() {
-
-
-
-
-
-	return 0;
-}
+//class TIR: public Arac
+//{
+//public:
+//	TIR(Plaka c_plaka, Sofor c_sofor, list<Yuk> c_yukListesi, AracTuru c_aracTuru,char*dorse,int maxHacim) :
+//		Arac(c_plaka, c_sofor, c_yukListesi, c_aracTuru)
+//	{
+//
+//	}
+//private:
+//	char* m_dorse;
+//	int m_hacim;
+//};
+//int main() {
+//
+//
+//
+//
+//
+//	return 0;
+//}
